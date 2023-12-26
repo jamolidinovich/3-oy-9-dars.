@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container .logo a{
+    width: 122px;
+    height: 53px;
+    flex-shrink: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: #282B22;
+    font-family: Raleway;
+    font-size: 20pxpx;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    transition: all 0.5s;
+}
+.nav ul a:hover{
+    color: #AE7B3C;
+}
+.contack{
+    display: flex;
+    align-items: center;
+}
+.contack .wev{
+    display: flex;
+    align-items: center;
+}
+.contack .web a{
+  margin-left: 15px;
+  align-items: center;
+   
+}
+
+.contack .tel a{
+    display: flex;
+    align-items: center;
+    gap: 7px; 
+    margin-left: 63px;
+    transition: all 0.5s;
+    text-decoration: none;
+    color: #3D4A39;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+    text-transform: uppercase;
+}
+
+.contack .tel a:hover{
+    color: #AE7B3C;
+}
+
+#check{
+    display: none;
+}
+
+.bar{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+
+.mobile-resp{
+    display: none;
+}
+
+.statrit-button{
+    background: #AE7B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    cursor: pointer;
+    padding: 22px 56px;
+    color:  #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+}
+
+.statrit-button:hover{
+  opacity: 0.8;
+}
+
+.hero__container{
+    max-width:1600px ; 
+    height: 687px;
+    margin: 0 auto; 
+    /* background-color: aqua; */
+  background-image: url("/img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1\ \(1\).png");
+
+
+}
+
+.hero__container h2{
+   color:  #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 67.2px */
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+.hero__container p{
+    color:#ffffff;
+    text-align: center;
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    margin-top: 20px;
+}
+
+.hero__container button{
+    align-items: center;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    background:  #AE7B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 56px;
+    border: none;
+    display: flex;
+    width: 260px;
+    padding: 22px 56px;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 670px;
+    margin-top: 50px;
+}
+
+.hero__container button:hover{
+    opacity: 0.9;
+    color: #000000;
+}
+
+.hero__container img{
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+.block__container{
+    max-width: 1200px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.title h3{
+    color:  #282B22;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 57.5px */
+    text-transform: uppercase;
+    margin-top: 140px;
+}
+.card{
+    display: flex;
+    margin-top: 80px;
+}
+.block__container .card1{
+    width: 400px;
+    height: 458px;
+    flex-shrink: 0;
+    /* background-color: #AE7B3C; */
+  
+  
+}
+
+.card .line{
+    width: 1px;
+    height: 458px;
+    opacity: 0.2;
+    background: #282B22;
+}
+.card1 span{
+    margin-left: 23px;
+    color: #282B22;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 24px */
+    opacity: 0.5;
+}
+.card1 p{
+    margin-top: 60px;
+    margin-left: 23px;
+    color: #3D4A39;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 24px */
+
+}
+    .card1 .home{
+    margin-top: 30px;
+    margin-left: 23px;
+
+}
+
+.list__container{
+    max-width: 1600px;
+    height: 688px;
+    background:  #3D4A39;
+   margin: 0 auto;
+   margin-top: 140px;
+}
+
+.list__container h3{
+    text-align: center;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 57.5px */
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.list-img {
+margin-left: 304px;
+margin-top: 73px;
+width: 108px;
+height: 126.979px;
+flex-shrink: 0;
+display: flex;
+text-wrap: wrap;
+}
+
+.list-img p {
+margin-left: 15px;
+color: #FFF;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 31.2px */
+opacity: 0.5;
+transition: all 0.5s;
+}
+.list-img p:hover{
+    color: #AE7B3C;
+}
+.list-im1 img{
+    margin-right: 357px;
+}
+
+.list-img2{
+    height: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 304px;
+    margin-top: 70px;
+}
+
+.list-img2 img{
+    margin-right: 370px;
+
+}
+
+.list-img2 p{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 31.2px */
+    opacity: 0.5;
+    transition: all 0.5s;
+   
+}
+
+.list-img2 p:hover{
+    color: #AE7B3C;
+}
+
+.bak__container{
+    max-width: 1360px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 270px;
+}
+
+.bak__container p{
+    color:  #282B22;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 46.8px */
+    margin-top: -140px;
+}
+
+.bak-img{
+   position: absolute;
+   top: -40px;
+   left: -20px;
+   width: 160px;
+   height: 200px;
+   flex-shrink: 0;
+}
+
+ .bak-img2{
+    margin-left: 1180px;
+    position: absolute;
+    bottom: 50px;
+    width: 160px;
+    height: 200px;
+} 
+.malumot{
+    width: 370px;
+    margin-left: 250px;
+    margin-top: 115px;
+}
+
+.malumot a{
+    text-decoration: none;
+    color: #282B22;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.malumot img{
+    margin-right: 15px;
+    margin-left: -35px;
+    margin-top: 5px;
+}
+.malumot2{
+    width: 370px;
+    margin-left: 800px;
+    margin-top: -130px;
+}
+.malumot2 a{
+    color: #282B22;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    text-decoration: none;
+}
+
+.malumot2 img{
+    margin-right: 15px;
+    margin-left: -35px;
+    margin-top: 5px;
+}
+@media screen and ( max-width:1200px ) {
+    .header__container{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .header__container{
+        max-width: 800px;
+    }
+
+    .nav ul{
+        gap: 15px;
+        font-size: 15px;
+    }
+ 
+    .contack .web a{
+        margin-left: 7px;
+    
+         
+      }
+
+    
+}
+
+@media screen and (max-width:768px) {
+    .header__container{
+        max-width: 600px;
+        position: relative;
+    }
+
+    .nav{
+        display: none;
+        position:fixed;
+        background-color: #ffffff;
+        width: 50vw;
+        right: 0;
+        top: 55px;
+        height: 100vh;
+        padding-top: 30px;
+        padding-left: 26px;
+    }
+    .nav ul{
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    
+    .bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    .contack .web a{
+        margin-left: 15px;
+       
+      }
+
+      .web a{
+        margin-left: 50px;
+      }
+
+      #check:checked + .nav{
+        display: block;
+      }
+
+      .nav ul a{
+        font-size: 18px ;
+      }
+
+
+      #check:checked ~ .bar .close{
+        display: block;
+      }
+
+      
+      #check:checked ~ .bar .open{
+        display: none;
+      }
+}
+
+@media screen and (max-width:576px) {
+    .header__container{
+        max-width: 90%;
+    }
+
+    .contack{
+        display: none;
+    }
+
+    .nav{
+        width: 100vw;
+    }
+
+    #check:checked ~ .nav .mobile-resp{
+        display: block;
+    }
+
+    .statrit-button{
+        width: 100%;
+    }
+
+    .tel{
+        margin-top: 130px;
+    }
+    .web a{
+        margin-left: 0px;
+      }
+}
+
+
+@media screen and (max-width:1200px) {
+    
+    .hero__container{
+        max-width:1200px ; 
+        height: 687px;
+    }
+
+
+    .hero__container button{
+        margin-left: 450px;
+    }
+
+    
+    .hero__container img{
+        width: 960px;
+        height: 57px;
+        flex-shrink: 0;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .hero__container{
+        max-width: 1000px;
+
+    }
+
+    .hero__container button{
+        margin-left: 350px;
+    }
+
+    .hero__container img{
+        width: 800px;
+        height: 57px;
+        flex-shrink: 0;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero__container{
+        max-width: 900px;
+
+    }
+
+    .hero__container button{
+        margin-left: 230px;
+    }
+
+    .hero__container img{
+        width: 600px;
+        height: 57px;
+        flex-shrink: 0;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero__container{
+        max-width: 900px;
+
+    }
+
+    .hero__container button{
+        margin-left: 150px;
+    }
+
+    .hero__container img{
+        width: 500px;
+        height: 57px;
+        flex-shrink: 0;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .block__container{
+        max-width: 1100px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .block__container{
+        max-width: 1000px;
+        margin-left: 10px;
+    }
+.card{
+    text-wrap: wrap;
+    max-width: 100px;
+   text-wrap: wrap;
+   /* display: inline; */
+}
+    .title h3{
+        color:  #282B22;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; /* 57.5px */
+        text-transform: uppercase;
+        margin-top: 140px;
+        margin-left: 300px;
+        display: flex;
+        width: 382px;
+    }
+
+    .card3{
+        text-wrap: wrap;
+        display: inline;
+
+    }
+}
+
+
